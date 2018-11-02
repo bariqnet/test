@@ -1,0 +1,32 @@
+{
+  "name": "4talents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "ejs-locals": "^1.0.2",
+    "express-session": "^1.15.6",
+    "express": "^4.16.4",
+    "https": "^1.0.0",
+    "http": "^0.0.0",
+    "passport": "^0.4.0",
+    "socket.io": "^2.1.1",
+    "soket.io": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bariqnet/4talents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bariqnet/4talents/issues"
+  },
+  "homepage": "https://github.com/bariqnet/4talents#readme"
+}
