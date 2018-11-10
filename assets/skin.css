@@ -139,7 +139,7 @@ header.menu-transparent .navbar-default .navbar-nav > .active > a, header.menu-t
 
 
     .white .accordion-list .list-group-item > a:before, footer .social-group i.circle, .table > tbody > tr > th, .table > tbody > tr > td, .table > thead > tr > th {
-        border-color: #FF6D00 !important;
+        border-color: #fff  !important;
     }
 
 .social-group i.circle, .social-button i.circle, .nav.inner.ms-rounded li a {
@@ -1793,8 +1793,8 @@ ul li .fa-li.fa-square {
 }
 
     .pricing-table .list-group-item {
-        padding: 5px 35px 5px 60px;
-        text-align: left;
+        padding: 5px 60px 5px 35px;
+        text-align: right;
         border-bottom: none;
         font-size: 16px;
         position: relative;
@@ -1812,9 +1812,18 @@ ul li .fa-li.fa-square {
         content: "\f00c";
         font: normal normal normal 14px/1 FontAwesome;
         position: absolute;
-        left: 35px;
+        right : 35px;
         top: 11px;
     }
+
+    .pricing-table .list-group-itemx:before {
+        content: "\f00d";
+        font: normal normal normal 14px/1 FontAwesome;
+        position: absolute;
+        right : 35px;
+        top: 11px;
+    }
+
 
     .pricing-table .pricing-price.list-group-item {
         font-weight: 600;
@@ -1849,6 +1858,7 @@ ul li .fa-li.fa-square {
             font-weight: 600;
             font-size: 40px;
             transform: translate3d(-2px,-2px,0);
+            color: #FF6D00;
         }
 
     .pricing-table .pricing-name {
